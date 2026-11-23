@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    padding: 1%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .nav-logo{
+    background-color: orange;
+    cursor: pointer;
+}
+
+nav .nav-content{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
